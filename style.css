@@ -1,0 +1,98 @@
+/* created by Shouvik on 29/05/2020 */
+body
+{
+	font-family:Times new roman;
+}
+
+.container{
+	background-color:pink;
+	height:100vh;
+}
+
+.quiz{
+	border:2px solid black;
+	width:80%;
+	height:auto;
+	padding:15px;
+	border-radius:5px;
+}
+#question{
+	border-bottom:2px solid black;
+	width:100%;
+	height:auto;
+	margin:auto;
+	font-size:1.5em;
+	padding-bottom: 5px;
+}
+
+#answers{
+	width: 100%;
+    height: auto;
+    margin: 5px auto;
+    font-size: 1.2em;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+.border_right{
+	border: 2px solid green; 
+}
+.border_wrong{
+	border: 2px solid red; 
+}
+.right{
+	display:none;
+	color:green;
+	font-size:20px;
+}
+.wrong{
+	display:none;
+	color:red;
+	font-size:20px;
+}
+#submit{
+	display:block;
+	margin: 0 0 15px 0;
+	/* border-top:1px solid black; */
+}
+#prev{
+	float:left;
+	/* border-top:1px solid black; */
+}
+#next{
+	float:right;
+	/* border-top:1px solid black; */
+}
+.result_container{
+	display:none;
+	border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: cornsilk;
+    font-size: 2em;
+	text-align: center;
+}
+#reset{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	padding-top:10px;
+}
+img{
+	width:10%;
+	cursor:pointer;
+}
+.glow {
+  -webkit-animation: shadow-pulse 1s infinite;
+  -moz-animation: shadow-pulse 1s infinite;
+  animation: shadow-pulse 1s infinite;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
